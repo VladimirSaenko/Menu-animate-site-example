@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu-animate-site-example</title>
+    <title>Menu</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/menu.png">
     <link href="https://fonts.googleapis.com/css?family=Hachi+Maru+Pop:regular" rel="stylesheet"/>
 </head>
 <body>
     <div class="menuToggle" onclick="toggleMenu()"></div>
-    <h2 class="tittle">Нажмите на меню в правом верхнем углу</h2>
+    <h2 class="title">Нажмите на меню в правом верхнем углу</h2>
     <div class="navigation">
         <div class="navArea">
             <ul>
@@ -48,8 +48,8 @@ function toggleMenu() {
     const navigation = document.querySelector('.navigation');
     // navigation.classList.add('active');
     navigation.classList.toggle('active');
-    const tittle = document.querySelector('.tittle');
-    tittle.classList.toggle('active');
+    const title = document.querySelector('.title');
+    title.classList.toggle('active');
 }
 
 let menuItems = document.getElementsByClassName('menu-item');
