@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="menuToggle" onclick="toggleMenu()"></div>
-    <h2 class="title">Нажмите на меню в правом верхнем углу</h2>
+    <h2 class="tittle">Нажмите на меню в правом верхнем углу</h2>
     <div class="navigation">
         <div class="navArea">
             <ul>
@@ -48,8 +48,8 @@ function toggleMenu() {
     const navigation = document.querySelector('.navigation');
     // navigation.classList.add('active');
     navigation.classList.toggle('active');
-    const title = document.querySelector('.title');
-    title.classList.toggle('active');
+    const tittle = document.querySelector('.tittle');
+    tittle.classList.toggle('active');
 }
 
 let menuItems = document.getElementsByClassName('menu-item');
