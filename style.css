@@ -57,7 +57,7 @@
 }
 
 .navigation .navArea ul li:nth-child(1):before {
-    background: #905c49;
+    background: #22c437;
 }
 
 .navigation .navArea ul li:nth-child(2):before {
@@ -93,7 +93,7 @@
 }
 
 .navigation .navArea ul li:nth-child(1):hover {
-    color: green;
+    color: yellow;
 }
 
 .navigation .navArea ul li:nth-child(2):hover {
@@ -101,7 +101,7 @@
 }
 
 .navigation .navArea ul li:nth-child(3):hover {
-    color: #c300ffc2;
+    color: white;
 }
 
 .navigation .navArea ul li:nth-child(4):hover {
@@ -153,7 +153,7 @@
     background-position: center;
 }
 
-.title {
+.tittle {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,7 +166,7 @@
     transition: 0s;
 }
 
-.title.active {
+.tittle.active {
     opacity: 0;
     display: none;
     visibility: hidden;
@@ -263,7 +263,7 @@
         flex-direction: column;
     }
 
-    .title {
+    .tittle {
         left: 3%;
         /* display: none; */
         /* opacity: 0; */
